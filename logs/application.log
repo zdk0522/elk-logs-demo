@@ -1,0 +1,30 @@
+2025-05-30 18:27:14.353 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.13 with PID 45768 (D:\Practice\elk-logs-demo\target\classes started by ZDK in D:\Practice\elk-logs-demo)
+2025-05-30 18:27:14.354 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 18:27:15.034 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-30 18:27:15.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 18:27:15.041 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-30 18:27:15.045 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-05-30 18:27:15.104 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-30 18:27:15.104 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2025-05-30 18:27:15.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 18:27:15.390 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-30 18:27:15.395 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.4 seconds (process running for 1.829)
+2025-05-30 18:27:26.050 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 18:27:26.050 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-30 18:27:26.051 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-30 18:27:26.093 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LoggingAspect - Method: getUser | Args: [41] | Duration: 0ms | Result: User-41
+2025-05-30 20:57:33.928 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.13 with PID 41044 (D:\Practice\elk-logs-demo\target\classes started by ZDK in D:\Practice\elk-logs-demo)
+2025-05-30 20:57:33.929 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-30 20:57:34.655 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-30 20:57:34.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-30 20:57:34.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-30 20:57:34.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-05-30 20:57:34.727 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-30 20:57:34.728 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 762 ms
+2025-05-30 20:57:35.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-30 20:57:35.019 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-30 20:57:35.024 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.466 seconds (process running for 4.178)
+2025-05-30 21:00:05.251 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 21:00:05.251 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-30 21:00:05.252 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-30 21:00:05.282 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LoggingAspect - Method: getUser | Args: [42] | Duration: 0ms | Result: User-42
